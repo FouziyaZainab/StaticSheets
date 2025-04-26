@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduLearn - Education Page</title>
+  <link rel="stylesheet" href="sheet3.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">EduLearn</div>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>EduLearn</h1>
+    <p>Your gateway to quality online education</p>
+  </header>
+
+  <section class="intro" id="intro">
+    <h2>Welcome to EduLearn</h2>
+    <p>We offer a wide range of online courses to boost your skills in technology, business, science, and more. Learn from industry experts, anytime, anywhere.</p>
+  </section>
+
+
+  
+  <section class="courses" id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-grid">
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/online-education-concept_52683-36824.jpg" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript and build real-world websites from scratch.</p>
+        <p><strong>Duration:</strong> 3 Months<br><strong>Level:</strong> Beginner - Intermediate</p>
+      </div>
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/flat-design-data-science-illustration_23-2149226151.jpg" alt="Data Science">
+        <h3>Data Science</h3>
+        <p>Master data analysis, Python, and machine learning with real projects.</p>
+        <p><strong>Duration:</strong> 4 Months<br><strong>Level:</strong> Intermediate</p>
+      </div>
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/business-strategy-concept-illustration_114360-757.jpg" alt="Business Strategy">
+        <h3>Business Strategy</h3>
+        <p>Understand business models, market analysis, and strategic planning.</p>
+        <p><strong>Duration:</strong> 2 Months<br><strong>Level:</strong> Beginner</p>
+      </div>
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/creative-process-concept-illustration_114360-2236.jpg" alt="Graphic Design">
+        <h3>Graphic Design</h3>
+        <p>Learn Photoshop, Illustrator and creative branding from industry experts.</p>
+        <p><strong>Duration:</strong> 2 Months<br><strong>Level:</strong> Beginner</p>
+      </div>
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/mobile-marketing-concept-illustration_114360-93.jpg" alt="Digital Marketing">
+        <h3>Digital Marketing</h3>
+        <p>Master SEO, social media, Google Ads, and content marketing techniques.</p>
+        <p><strong>Duration:</strong> 3 Months<br><strong>Level:</strong> All Levels</p>
+      </div>
+  
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-vector/illustration-people-working-call-center_53876-42951.jpg" alt="Communication Skills">
+        <h3>Communication Skills</h3>
+        <p>Enhance verbal and written communication for workplace success.</p>
+        <p><strong>Duration:</strong> 1.5 Months<br><strong>Level:</strong> Beginner</p>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach us at <a href="mailto:info@edulearn.com">info@edulearn.com</a></p>
+    <p>Or call us at <strong>+1 (800) 123-4567</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EduLearn. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+

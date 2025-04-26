@@ -1,0 +1,82 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f1f5f9; /* Light bluish gray */
+}
+
+header {
+  background-color: #1e293b; /* Dark navy */
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-box {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #0f172a; /* Charcoal */
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.product {
+  background-color: #f8fafc; /* Light gray-blue */
+  padding: 1.2rem;
+  border-radius: 10px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.product h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #1e293b;
+}
+
+.product p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #10b981; /* Emerald green */
+  font-weight: 700;
+}
+
+
